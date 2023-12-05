@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059E5E582B1F7CAC00C1D220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E5E572B1F7CAC00C1D220 /* AppDelegate.swift */; };
+		059E5E5A2B1F7CAC00C1D220 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E5E592B1F7CAC00C1D220 /* SceneDelegate.swift */; };
+		059E5E5C2B1F7CAC00C1D220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E5E5B2B1F7CAC00C1D220 /* ViewController.swift */; };
+		059E5E5F2B1F7CAC00C1D220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059E5E5D2B1F7CAC00C1D220 /* Main.storyboard */; };
+		059E5E622B1F7CAC00C1D220 /* warGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 059E5E602B1F7CAC00C1D220 /* warGame.xcdatamodeld */; };
+		059E5E642B1F7CAD00C1D220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059E5E632B1F7CAD00C1D220 /* Assets.xcassets */; };
+		059E5E672B1F7CAD00C1D220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059E5E652B1F7CAD00C1D220 /* LaunchScreen.storyboard */; };
+		059E5E722B1F7CAE00C1D220 /* warGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E5E712B1F7CAE00C1D220 /* warGameTests.swift */; };
+		059E5E7C2B1F7CAE00C1D220 /* warGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E5E7B2B1F7CAE00C1D220 /* warGameUITests.swift */; };
+		059E5E7E2B1F7CAE00C1D220 /* warGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E5E7D2B1F7CAE00C1D220 /* warGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		059E5E6E2B1F7CAE00C1D220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 059E5E4C2B1F7CAC00C1D220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 059E5E532B1F7CAC00C1D220;
+			remoteInfo = warGame;
+		};
+		059E5E782B1F7CAE00C1D220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 059E5E4C2B1F7CAC00C1D220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 059E5E532B1F7CAC00C1D220;
+			remoteInfo = warGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059E5E542B1F7CAC00C1D220 /* warGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = warGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		059E5E572B1F7CAC00C1D220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		059E5E592B1F7CAC00C1D220 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		059E5E5B2B1F7CAC00C1D220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		059E5E5E2B1F7CAC00C1D220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		059E5E612B1F7CAC00C1D220 /* warGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = warGame.xcdatamodel; sourceTree = "<group>"; };
+		059E5E632B1F7CAD00C1D220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		059E5E662B1F7CAD00C1D220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		059E5E682B1F7CAD00C1D220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		059E5E6D2B1F7CAE00C1D220 /* warGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = warGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		059E5E712B1F7CAE00C1D220 /* warGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warGameTests.swift; sourceTree = "<group>"; };
+		059E5E772B1F7CAE00C1D220 /* warGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = warGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		059E5E7B2B1F7CAE00C1D220 /* warGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warGameUITests.swift; sourceTree = "<group>"; };
+		059E5E7D2B1F7CAE00C1D220 /* warGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		059E5E512B1F7CAC00C1D220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059E5E6A2B1F7CAE00C1D220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059E5E742B1F7CAE00C1D220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059E5E4B2B1F7CAC00C1D220 = {
+			isa = PBXGroup;
+			children = (
+				059E5E562B1F7CAC00C1D220 /* warGame */,
+				059E5E702B1F7CAE00C1D220 /* warGameTests */,
+				059E5E7A2B1F7CAE00C1D220 /* warGameUITests */,
+				059E5E552B1F7CAC00C1D220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		059E5E552B1F7CAC00C1D220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				059E5E542B1F7CAC00C1D220 /* warGame.app */,
+				059E5E6D2B1F7CAE00C1D220 /* warGameTests.xctest */,
+				059E5E772B1F7CAE00C1D220 /* warGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		059E5E562B1F7CAC00C1D220 /* warGame */ = {
+			isa = PBXGroup;
+			children = (
+				059E5E572B1F7CAC00C1D220 /* AppDelegate.swift */,
+				059E5E592B1F7CAC00C1D220 /* SceneDelegate.swift */,
+				059E5E5B2B1F7CAC00C1D220 /* ViewController.swift */,
+				059E5E5D2B1F7CAC00C1D220 /* Main.storyboard */,
+				059E5E632B1F7CAD00C1D220 /* Assets.xcassets */,
+				059E5E652B1F7CAD00C1D220 /* LaunchScreen.storyboard */,
+				059E5E682B1F7CAD00C1D220 /* Info.plist */,
+				059E5E602B1F7CAC00C1D220 /* warGame.xcdatamodeld */,
+			);
+			path = warGame;
+			sourceTree = "<group>";
+		};
+		059E5E702B1F7CAE00C1D220 /* warGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				059E5E712B1F7CAE00C1D220 /* warGameTests.swift */,
+			);
+			path = warGameTests;
+			sourceTree = "<group>";
+		};
+		059E5E7A2B1F7CAE00C1D220 /* warGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				059E5E7B2B1F7CAE00C1D220 /* warGameUITests.swift */,
+				059E5E7D2B1F7CAE00C1D220 /* warGameUITestsLaunchTests.swift */,
+			);
+			path = warGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		059E5E532B1F7CAC00C1D220 /* warGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 059E5E812B1F7CAE00C1D220 /* Build configuration list for PBXNativeTarget "warGame" */;
+			buildPhases = (
+				059E5E502B1F7CAC00C1D220 /* Sources */,
+				059E5E512B1F7CAC00C1D220 /* Frameworks */,
+				059E5E522B1F7CAC00C1D220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = warGame;
+			productName = warGame;
+			productReference = 059E5E542B1F7CAC00C1D220 /* warGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		059E5E6C2B1F7CAE00C1D220 /* warGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 059E5E842B1F7CAE00C1D220 /* Build configuration list for PBXNativeTarget "warGameTests" */;
+			buildPhases = (
+				059E5E692B1F7CAE00C1D220 /* Sources */,
+				059E5E6A2B1F7CAE00C1D220 /* Frameworks */,
+				059E5E6B2B1F7CAE00C1D220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				059E5E6F2B1F7CAE00C1D220 /* PBXTargetDependency */,
+			);
+			name = warGameTests;
+			productName = warGameTests;
+			productReference = 059E5E6D2B1F7CAE00C1D220 /* warGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		059E5E762B1F7CAE00C1D220 /* warGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 059E5E872B1F7CAE00C1D220 /* Build configuration list for PBXNativeTarget "warGameUITests" */;
+			buildPhases = (
+				059E5E732B1F7CAE00C1D220 /* Sources */,
+				059E5E742B1F7CAE00C1D220 /* Frameworks */,
+				059E5E752B1F7CAE00C1D220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				059E5E792B1F7CAE00C1D220 /* PBXTargetDependency */,
+			);
+			name = warGameUITests;
+			productName = warGameUITests;
+			productReference = 059E5E772B1F7CAE00C1D220 /* warGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		059E5E4C2B1F7CAC00C1D220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					059E5E532B1F7CAC00C1D220 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					059E5E6C2B1F7CAE00C1D220 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 059E5E532B1F7CAC00C1D220;
+					};
+					059E5E762B1F7CAE00C1D220 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 059E5E532B1F7CAC00C1D220;
+					};
+				};
+			};
+			buildConfigurationList = 059E5E4F2B1F7CAC00C1D220 /* Build configuration list for PBXProject "warGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 059E5E4B2B1F7CAC00C1D220;
+			productRefGroup = 059E5E552B1F7CAC00C1D220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				059E5E532B1F7CAC00C1D220 /* warGame */,
+				059E5E6C2B1F7CAE00C1D220 /* warGameTests */,
+				059E5E762B1F7CAE00C1D220 /* warGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		059E5E522B1F7CAC00C1D220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059E5E672B1F7CAD00C1D220 /* LaunchScreen.storyboard in Resources */,
+				059E5E642B1F7CAD00C1D220 /* Assets.xcassets in Resources */,
+				059E5E5F2B1F7CAC00C1D220 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059E5E6B2B1F7CAE00C1D220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059E5E752B1F7CAE00C1D220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		059E5E502B1F7CAC00C1D220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059E5E622B1F7CAC00C1D220 /* warGame.xcdatamodeld in Sources */,
+				059E5E5C2B1F7CAC00C1D220 /* ViewController.swift in Sources */,
+				059E5E582B1F7CAC00C1D220 /* AppDelegate.swift in Sources */,
+				059E5E5A2B1F7CAC00C1D220 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059E5E692B1F7CAE00C1D220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059E5E722B1F7CAE00C1D220 /* warGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		059E5E732B1F7CAE00C1D220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059E5E7C2B1F7CAE00C1D220 /* warGameUITests.swift in Sources */,
+				059E5E7E2B1F7CAE00C1D220 /* warGameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		059E5E6F2B1F7CAE00C1D220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 059E5E532B1F7CAC00C1D220 /* warGame */;
+			targetProxy = 059E5E6E2B1F7CAE00C1D220 /* PBXContainerItemProxy */;
+		};
+		059E5E792B1F7CAE00C1D220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 059E5E532B1F7CAC00C1D220 /* warGame */;
+			targetProxy = 059E5E782B1F7CAE00C1D220 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		059E5E5D2B1F7CAC00C1D220 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				059E5E5E2B1F7CAC00C1D220 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		059E5E652B1F7CAD00C1D220 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				059E5E662B1F7CAD00C1D220 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		059E5E7F2B1F7CAE00C1D220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		059E5E802B1F7CAE00C1D220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		059E5E822B1F7CAE00C1D220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43R429C7J6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = warGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.warGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		059E5E832B1F7CAE00C1D220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43R429C7J6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = warGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.warGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		059E5E852B1F7CAE00C1D220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43R429C7J6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.warGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/warGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/warGame";
+			};
+			name = Debug;
+		};
+		059E5E862B1F7CAE00C1D220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43R429C7J6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.warGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/warGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/warGame";
+			};
+			name = Release;
+		};
+		059E5E882B1F7CAE00C1D220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43R429C7J6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.warGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = warGame;
+			};
+			name = Debug;
+		};
+		059E5E892B1F7CAE00C1D220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43R429C7J6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.warGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = warGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		059E5E4F2B1F7CAC00C1D220 /* Build configuration list for PBXProject "warGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059E5E7F2B1F7CAE00C1D220 /* Debug */,
+				059E5E802B1F7CAE00C1D220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		059E5E812B1F7CAE00C1D220 /* Build configuration list for PBXNativeTarget "warGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059E5E822B1F7CAE00C1D220 /* Debug */,
+				059E5E832B1F7CAE00C1D220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		059E5E842B1F7CAE00C1D220 /* Build configuration list for PBXNativeTarget "warGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059E5E852B1F7CAE00C1D220 /* Debug */,
+				059E5E862B1F7CAE00C1D220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		059E5E872B1F7CAE00C1D220 /* Build configuration list for PBXNativeTarget "warGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059E5E882B1F7CAE00C1D220 /* Debug */,
+				059E5E892B1F7CAE00C1D220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		059E5E602B1F7CAC00C1D220 /* warGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				059E5E612B1F7CAC00C1D220 /* warGame.xcdatamodel */,
+			);
+			currentVersion = 059E5E612B1F7CAC00C1D220 /* warGame.xcdatamodel */;
+			path = warGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 059E5E4C2B1F7CAC00C1D220 /* Project object */;
+}
