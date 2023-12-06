@@ -17,6 +17,7 @@
 		059E5E722B1F7CAE00C1D220 /* warGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E5E712B1F7CAE00C1D220 /* warGameTests.swift */; };
 		059E5E7C2B1F7CAE00C1D220 /* warGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E5E7B2B1F7CAE00C1D220 /* warGameUITests.swift */; };
 		059E5E7E2B1F7CAE00C1D220 /* warGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E5E7D2B1F7CAE00C1D220 /* warGameUITestsLaunchTests.swift */; };
+		05D272432B20CC8F00DF8F7B /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D272422B20CC8F00DF8F7B /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		059E5E772B1F7CAE00C1D220 /* warGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = warGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		059E5E7B2B1F7CAE00C1D220 /* warGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warGameUITests.swift; sourceTree = "<group>"; };
 		059E5E7D2B1F7CAE00C1D220 /* warGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05D272422B20CC8F00DF8F7B /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				059E5E572B1F7CAC00C1D220 /* AppDelegate.swift */,
 				059E5E592B1F7CAC00C1D220 /* SceneDelegate.swift */,
 				059E5E5B2B1F7CAC00C1D220 /* ViewController.swift */,
+				05D272422B20CC8F00DF8F7B /* ViewController2.swift */,
 				059E5E5D2B1F7CAC00C1D220 /* Main.storyboard */,
 				059E5E632B1F7CAD00C1D220 /* Assets.xcassets */,
 				059E5E652B1F7CAD00C1D220 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D272432B20CC8F00DF8F7B /* ViewController2.swift in Sources */,
 				059E5E622B1F7CAC00C1D220 /* warGame.xcdatamodeld in Sources */,
 				059E5E5C2B1F7CAC00C1D220 /* ViewController.swift in Sources */,
 				059E5E582B1F7CAC00C1D220 /* AppDelegate.swift in Sources */,
