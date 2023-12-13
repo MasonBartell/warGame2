@@ -6,6 +6,10 @@
 //
 
 import UIKit
+//UI Elements: Textfield, Button, Label, Textview, Imageview, Navigation Controller, View Controller
+// programming Concepts: Variables & constants, Operators (+,-,/,*,%, &&, ||), if/else, Switch statements,Functions, Github, Scrums and Sprints, Classes, 
+
+
 
 class ViewController: UIViewController {
 
